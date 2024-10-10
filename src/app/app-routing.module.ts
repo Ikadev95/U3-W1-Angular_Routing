@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { InactivePostsComponent } from './components/inactive-posts/inactive-posts.component';
 import { ActivePostsComponent } from './components/active-posts/active-posts.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'active-post',
     component: ActivePostsComponent,
+  },
+  {
+    path: 'post-detail/:id',
+    component: PostDetailComponent,
   }
 ];
 
