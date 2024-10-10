@@ -22,7 +22,7 @@ export class HomeComponent {
       this.bodyHeader = dati.posts[0].body
       this.tagsHeader = dati.posts[0].tags
 
-      for ( let i = 1 ; i < dati.posts.length; i++){
+      for ( let i = 1 ; i < 5; i++){
         this.post.push(dati.posts[i]);
       }
      // console.log(this.post[0].title)
